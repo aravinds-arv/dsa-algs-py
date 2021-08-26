@@ -15,7 +15,7 @@ def insSort(seq):
     # In each scan we go through slices l[0:0], l[0:1], l[0:2] and so on
     # and in each scan we either sort the slice or leave it as it is if already sorted
     for sliceEnd in range(len(seq)):
-        # for each slice we check whether the element in th e slice end is smaller than the preceeding value if so they're swaped
+        # for each slice we check whether the element in the slice end is smaller than the preceeding value if so they're swaped
         # the process is repeated until the element reaches either
             # a position whereit requires no more swapping or
             # the first postion seq[0]
