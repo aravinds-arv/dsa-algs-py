@@ -9,7 +9,7 @@ def findpos(l, v):
 
     # a much more shortened version for the same purpose
     # using a return statement instead of a break to exit the loop and the function itself
-    # no temporary variables hence more efficient in terms of memory usage to
+    # no temporary variables hence more efficient in terms of memory usage too
 
     for i in range(len(l)):
         if l[i] == v:

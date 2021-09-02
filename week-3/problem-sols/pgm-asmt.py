@@ -29,6 +29,16 @@ def evenSum(l):
 def transpose(m):
     rez = [[m[j][i] for j in range(len(m))] for i in range(len(m[0]))]
     return(rez)
+
+# the expanded version of the list comprehension might give a bit more clarity
+# def transpose(m):
+#     jlist = []
+#     for j in range(len(m[0])):
+#         ilist = []
+#         for i in range(len(m)):
+#             ilist.append(m[i][j])
+#         jlist.append(mt)
+#     return jlist
    
 print(expanding([1,3,7,2,-3]))
 print(sumsquare([-1,-2,3,7]))
